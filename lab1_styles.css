@@ -3,9 +3,16 @@ body {
 }
 
 .header {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    box-shadow: 50px 50px;
+    background-color: orange;
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding:10px;
+
 }
 
 .container {
@@ -14,11 +21,12 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 150px;
     background: #ff6677;
     position: absolute;
     top: 0;
     height: 100%;
+    padding:10px 15px;
 }
 
 .main-content {
@@ -26,4 +34,12 @@ body {
     position: absolute;
     top: 0;
     left: 200px;
+    border:5px solid blue;
+    margin:5px;
+    margin-top: 100px;
+    padding:10px 15px;
+}
+
+a{
+    text-decoration: none
 }
